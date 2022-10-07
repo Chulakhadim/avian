@@ -1,0 +1,27 @@
+PODS:
+  - Capacitor (3.5.0):
+    - CapacitorCordova
+  - CapacitorCordova (2.0.1)
+  - OpenCV2 (4.3.0)
+
+DEPENDENCIES:
+  - "Capacitor (from `../node_modules/@capacitor/ios`)"
+  - OpenCV2
+
+SPEC REPOS:
+  trunk:
+    - CapacitorCordova
+    - OpenCV2
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../node_modules/@capacitor/ios"
+
+SPEC CHECKSUMS:
+  Capacitor: f19b782e4ca1861bd360b6c1ccf6981b0c399fe9
+  CapacitorCordova: 9fee2eb6780331b6ff09710d6a7d1f2e4707f1b9
+  OpenCV2: ffe82e5cb5d16dc3fc01a5f4127b9a5b3cfc7d1b
+
+PODFILE CHECKSUM: 0985c9d14c52e991a621774cf515f0865810b568
+
+COCOAPODS: 1.11.2

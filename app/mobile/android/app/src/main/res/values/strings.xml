@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Avian Brands</string>
+    <string name="title_activity_main">Avian Brands</string>
+    <string name="package_name">com.avian.brands</string>
+    <string name="custom_url_scheme">com.avian.brands</string>
+</resources>

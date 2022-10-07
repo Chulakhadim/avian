@@ -1,0 +1,25 @@
+platform :ios, '12.0'
+use_frameworks!
+
+# workaround to avoid Xcode caching of Pods that requires
+# Product -> Clean Build Folder after new Cordova plugins installed
+# Requires CocoaPods 1.6 or newer
+install! 'cocoapods', :disable_input_output_paths => true
+
+def capacitor_pods
+  pod 'Capacitor', :path => '../../../../node_modules/.pnpm/@capacitor+ios@3.4.1_@capacitor+core@3.4.3/node_modules/@capacitor/ios'
+  pod 'CapacitorCordova', :path => '../../../../node_modules/.pnpm/@capacitor+ios@3.4.1_@capacitor+core@3.4.3/node_modules/@capacitor/ios'
+  pod 'CapacitorCommunityBluetoothLe', :path => '../../../../node_modules/.pnpm/@capacitor-community+bluetooth-le@1.8.0_@capacitor+core@3.4.3/node_modules/@capacitor-community/bluetooth-le'
+  pod 'CapacitorApp', :path => '../../../../node_modules/.pnpm/@capacitor+app@1.1.0_@capacitor+core@3.4.3/node_modules/@capacitor/app'
+  pod 'CapacitorCamera', :path => '../../../../node_modules/.pnpm/@capacitor+camera@1.3.1_@capacitor+core@3.4.3/node_modules/@capacitor/camera'
+  pod 'CapacitorDevice', :path => '../../../../node_modules/.pnpm/@capacitor+device@1.1.2_@capacitor+core@3.4.3/node_modules/@capacitor/device'
+  pod 'CapacitorGeolocation', :path => '../../../../node_modules/.pnpm/@capacitor+geolocation@1.3.1_@capacitor+core@3.4.3/node_modules/@capacitor/geolocation'
+  pod 'CapacitorSplashScreen', :path => '../../../../node_modules/.pnpm/@capacitor+splash-screen@1.2.2_@capacitor+core@3.4.3/node_modules/@capacitor/splash-screen'
+  pod 'HiloenergieCapacitorPluginSafeArea', :path => '../../../../node_modules/.pnpm/@hiloenergie+capacitor-plugin-safe-area@0.0.8_@capacitor+core@3.4.3/node_modules/@hiloenergie/capacitor-plugin-safe-area'
+  pod 'CapacitorSuppressLongpressGesture', :path => '../../../../node_modules/.pnpm/capacitor-suppress-longpress-gesture@0.0.5_@capacitor+core@3.4.3/node_modules/capacitor-suppress-longpress-gesture'
+end
+
+target 'App' do
+  capacitor_pods
+  # Add your Pods here
+end

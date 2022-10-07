@@ -1,0 +1,19 @@
+{
+	"appId": "com.avian.brands",
+	"appName": "Avian Brands",
+	"bundledWebRuntime": true,
+	"webDir": "www",
+	"plugins": {
+		"SplashScreen": {
+			"androidScaleType": "CENTER_CROP",
+			"splashImmersive": "true",
+			"splashFullScreen": "true"
+		}
+	},
+	"ios": {
+		"contentInset": "never"
+	},
+	"server": {
+		"url": "http://192.168.1.8:3200/"
+	}
+}

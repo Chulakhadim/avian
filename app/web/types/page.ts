@@ -1,0 +1,15 @@
+export default {
+  'about':["/about-avian-brands", "top-only", () => import('../src/base/page/about')],
+  'artikel':["/artikel/:id?", "top-only", () => import('../src/base/page/artikel')],
+  'home':["/", "default", () => import('../src/base/page/home')],
+  'peduli':["/peduli/:id?", "top-only", () => import('../src/base/page/peduli')],
+  'pemasaran':["/pemasaran", "top-only", () => import('../src/base/page/pemasaran')],
+  'produk-detail':["/produk/detail/:tid", "top-only", () => import('../src/base/page/produk-detail')],
+  'produk-warna':["/produk/warna/:id", "top-only", () => import('../src/base/page/produk-warna')],
+  'produk':["/produk/:cat?/:catid?", "default", () => import('../src/base/page/produk')],
+  'toko':["/toko/:tid?/:pid?", "default", () => import('../src/base/page/toko')],
+  'vis':["/vis", "bot-only", () => import('../src/base/page/vis')],
+  'warna-preview':["/warna/preview/:id/:temukanProduk", "top-only", () => import('../src/base/page/warna-preview')],
+  'warna-produk':["/warna/produk/:cid", "top-only", () => import('../src/base/page/warna-produk')],
+  'warna':["/warna", "default", () => import('../src/base/page/warna')],
+}

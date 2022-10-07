@@ -1,0 +1,16 @@
+{
+	"appId": "com.avianbrands.mobile",
+	"appName": "avian-mobile",
+	"bundledWebRuntime": true,
+	"webDir": "www",
+	"plugins": {
+		"SplashScreen": {
+			"androidScaleType": "CENTER_CROP",
+			"splashImmersive": "true",
+			"splashFullScreen": "true"
+		}
+	},
+	"ios": {
+		"contentInset": "never"
+	}
+}

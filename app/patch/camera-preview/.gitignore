@@ -1,0 +1,13 @@
+node_modules/
+ios/Pods/
+.DS_Store
+.idea/
+*.iml
+build/
+.gradle
+android/.gradle
+android/local.properties
+ios/Plugin.xcodeproj/xcuserdata
+ios/Plugin.xcworkspace/xcuserdata
+dist/
+.DS_Store
