@@ -5,8 +5,10 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
+    "esbuild": "0.14.18",
     "esbuild-runner": "^2.2.1",
-    "esbuild": "0.14.18"
+    "mirada": "^0.0.15",
+    "swiper": "^8.1.4"
   },
   "devDependencies": {
     "@types/node": "17.0.14"

@@ -1,2 +1,2 @@
 
-export const dbsList = ["db"] as const;
+export const dbsList = ["db","node_modules"] as const;

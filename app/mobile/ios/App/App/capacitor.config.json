@@ -1,6 +1,6 @@
 {
-	"appId": "com.avianbrands.mobile",
-	"appName": "avian-mobile",
+	"appId": "com.avian.brands",
+	"appName": "Avian Brands",
 	"bundledWebRuntime": true,
 	"webDir": "www",
 	"plugins": {
@@ -12,5 +12,8 @@
 	},
 	"ios": {
 		"contentInset": "never"
+	},
+	"server": {
+		"url": "http://192.168.1.2:3200/"
 	}
 }
